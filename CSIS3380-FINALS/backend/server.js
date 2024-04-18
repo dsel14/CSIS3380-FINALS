@@ -10,7 +10,7 @@ const port = 5000;
 app.use(cors());
 app.use(express.json());
 
-const URI = "mongodb://localhost:27017/Artlist";
+const URI = "mongodb+srv://douglas:csis3380@cluster1.syihxvj.mongodb.net/Artlist";
 mongoose.connect(URI);
 
 const connection = mongoose.connection;
